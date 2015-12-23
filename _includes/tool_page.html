@@ -9,7 +9,7 @@
             </div>
             <div class="row">
                 {% for post in site.posts %}
-                    {% if post.category == 'tools' %}
+                    {% if post.category == 'tool' %}
                         <div class="col-sm-4 portfolio-item">
                              <a href="/{{ post.category }}/{{ post.title }}" class="portfolio-link" data-toggle="modal">
                                 <img src="/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">

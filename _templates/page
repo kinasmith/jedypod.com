@@ -1,0 +1,11 @@
+---
+layout: {{ layout }}
+title: {{ title }}
+date: {{ date }}
+image:
+  feature: 
+  credit:
+  creditlink:
+category:
+folder:
+---

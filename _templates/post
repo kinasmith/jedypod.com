@@ -1,0 +1,8 @@
+---
+layout: {{ dir }}
+title: {{ title }}
+date: {{ date }}
+category: {{ dir }}
+tags: []
+img: cake.png
+---

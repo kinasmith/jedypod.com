@@ -1,11 +1,12 @@
 ---
-layout: tool
-date: 2014-07-15
+layout: photo
+title: Photo3
+date: 2015-12-23T11:33:01-09:00
+category: photo
+tags: []
 img: submarine.png
-alt: image-alt
-category: tools
-name: Tool Name
 ---
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vel tellus mauris. Morbi eget urna id massa suscipit sagittis. Morbi ullamcorper ex nisl. Morbi quis vulputate lacus. Pellentesque ornare porttitor sapien dignissim lobortis. Ut tempus malesuada orci non maximus. Vestibulum a turpis ullamcorper, scelerisque libero vel, elementum ex. Donec a sollicitudin nisl. Vivamus placerat tortor ex, at ultrices orci aliquet vel. Etiam vulputate lectus magna, et vehicula libero sodales at. Etiam at pulvinar massa.
 
