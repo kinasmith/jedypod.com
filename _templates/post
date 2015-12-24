@@ -1,6 +1,7 @@
 ---
 layout: {{ dir }}
 title: {{ title }}
+caption: {{}}
 date: {{ date }}
 category: {{ dir }}
 tags: []

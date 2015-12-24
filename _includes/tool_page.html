@@ -11,8 +11,13 @@
                 {% for post in site.posts %}
                     {% if post.category == 'tool' %}
                         <div class="col-sm-4 portfolio-item">
-                             <a href="/{{ post.category }}/{{ post.title }}" class="portfolio-link" data-toggle="modal">
-                                <img src="/img/portfolio/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}">
+                             <a href="/{{ post.category }}/{{ post.title }}" class="portfolio-link">
+                                <img src="/img/{{ post.category }}/{{ post.img }}" class="img-responsive" alt="{{ post.alt }}" >
+                                   <div class="caption">
+                                        <div class="caption-content text-center">
+                                                    {{ post.caption }}
+                                        </div>
+                                    </div>
                             </a>
                             </div>
                     {% endif %}
@@ -20,3 +25,5 @@
             </div>
         </div>
     </section>
+
+                     

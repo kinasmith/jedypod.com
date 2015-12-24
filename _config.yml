@@ -2,11 +2,7 @@
 title: Jedediah
 email: email@domain.poop
 url: https://jedypod.com
-description: "This is the header description."
-skills: "This is the Header Subtext"
-
-# Contact form: comment the line below if you want to stick with the default PHP contact form
-contact: static
+skills: "Cerebellar Exocarp"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -18,37 +14,29 @@ color:
   hover:
   text: D9DADB
 
-
-
 # Footer settings
 footer:
   copyright: Jed Smith
-  location: PoopyTown
-  social: Internet Presence
-  credits: credits?
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
     url: http://twitter.com/jekyllrb
-  - title: facebook
-    url:
   - title: stack-overflow
     url: http://stackoverflow.com/questions/tagged/jekyll
   - title: bitbucket
     url: http://bitbucket.org/jekyll
   - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
-address:
-  - line: Don't put your postal Address Online?
-  - line: line2
-
-# Credits content
-credits: 'Why is this here?'
+    url: http://github.com/jedypod
+  - title: 500px
+    url: poop
+  - title: flickr
+    url: poop
 
 # Build settings
 markdown: kramdown
-# permalink: pretty
 permalink:   /:categories/:title/
+
+gems:
+  - jekyll-gist
+
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
