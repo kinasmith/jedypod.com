@@ -6,26 +6,25 @@ skills: "Cerebellar Exocarp"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  base: 6F6960
+  primary: ffffff #nav bar rollover 
+  secondary: ffffff # navbar background; text color
+  secondary-dark: ffffff #background colors on secondary pages
 
-  primary: 00ff00 #nav bar rollover 
-  secondary: ffffaa # navbar background; text color
-  secondary-dark: 6F6960 #background colors on secondary pages
+  primary-rgb: "255, 255, 255"  # not sure what this is
+  primary-dark: ffffff
+
+  background: 423C32
+
+  link: 788088
+  hover: D0C6B6
+  text: D0C6B6
+  header:  788088
 
 
+  navbar: 17202B
+  nav-text: 788088
+  nav-text-rollover: 5A626A
 
-
-
-  primary-rgb: "255, 00, 00" 
-  primary-dark: ff0000
-
-  
-  
-  link: ff0000
-  hover: ff0000
-  text: ff0000
-  background: ff0000
-  nav: ff0000
 
 # Footer settings
 footer:

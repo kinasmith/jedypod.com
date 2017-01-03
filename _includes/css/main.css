@@ -8,6 +8,11 @@ body {
     overflow-x: hidden;
 }
 
+body {
+    color: #{{ site.color.text }};
+    background-color: #{{ site.color.background }};
+}
+
 p {
     font-size: 20px;
 }
@@ -38,6 +43,7 @@ h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    color: #{{ site.color.header }};
 }
 
 hr.star-light,
@@ -178,6 +184,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    background-color: #{{ site.color.navbar }};
 }
 
 .navbar a:focus {
@@ -195,6 +202,21 @@ header .intro-text .skills {
 .navbar-default,
 .navbar-inverse {
     border: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #{{ site.color.nav-text }};
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #{{ site.color.nav-text-rollover }};
+    background-color: transparent;
+}
+.navbar-default .navbar-brand {
+    color: #{{ site.color.nav-text }};
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #{{ site.color.nav-text-rollover }};
+    background-color: transparent;
 }
 
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Sections?~~~~~~~~~~~~~~~~~~~~*/
